@@ -53,5 +53,5 @@ calcInventoryValue = (InventoryItem) => {
     // }
 }
 
-calcInventoryValue(products);
+calcInventoryValue(InventoryItem);
 console.log(inventoryValue);
