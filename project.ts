@@ -1,7 +1,7 @@
 interface Mountain {
     name: string;
     height: number;
-    Mountain = mountains[];
+    const ​mountains​: Mountains[] = [];
 }
 
 findNameOfTallestMountain = (Mountain) => {
@@ -16,11 +16,11 @@ console.log(findNameOfTallestMountain);
 interface Product {
     name: string;
     price: number;
-    Products = products[];
+    const ​products: Product[] = [];
 }
 
 calcAverageProductPrice = (Product) => {
-    for (i = 0; i < Mountain.length; i++) {
+    for (i = 0; i < Product.length; i++) {
         return 
     }
 }
@@ -29,13 +29,13 @@ calcAverageProductPrice(products);
 console.log(calcAverageProductPrice);
 
 interface InventoryItem {
-    product = Product;
-    quantity = number;
-    inventory = InventoryItem[];
+    product: Product;
+    quantity: number;
+    const ​inventory​: InventoryItem[] = [];
 }
 
 calcInventoryValue = (InventoryItem) => {
-    for (i = 0; i < Mountain.length; i++) {
+    for (i = 0; i < InventoryItem.length; i++) {
         return 
     }
 }
